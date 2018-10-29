@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="6"
+            failures="1"
+            tests="26">
+
+  <testsuite name="wantedQueries"
+    errors="6" failures="1" hostname="" id="" package="wantedQueries" skipped="14"
+    tests="26" time="413.6" timestamp="Mon, 29 Oct 2018 04:50:17 GMT">
+  
+    <testcase name="Home Screen" classname="wantedQueries" time="5.969" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="All Valid Fields" classname="wantedQueries" time="50.35" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Valid Required Fields w/ Some Optional" classname="wantedQueries" time="91.05" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Invalid Character Input" classname="wantedQueries" time="61.77" assertions="21">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Insufficient Length Input" classname="wantedQueries" time="21.05" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Excessive Length Input" classname="wantedQueries" time="85.72" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Required Fields Incomplete" classname="wantedQueries" time="25.80" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Valid Boundary Values" classname="wantedQueries" time="60.55" assertions="29">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clear Button" classname="wantedQueries" time="3.293" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Navigate to Modify Wanted Screen" classname="wantedQueries" time="0.9080" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Modify Wanted: All Valid Fields" classname="wantedQueries" time="3.345" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Modify Wanted: Valid Required Fields w/ Some Optional" classname="wantedQueries" time="3.844" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;li[class=&#34;errorMessage&#34;]&gt; to be present for 500 milliseconds.">    at Object.Modify Wanted: Valid Required Fields w/ Some Optional (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:112:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;option[value=&#34;5&#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:12:10)
+    at Invalid Character Input.testData.invalidCharacterInput.forEach.invalidCharacterInput (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:46:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Invalid Character Input (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:45:40)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+ERROR: Unable to locate element: &#34;option[value=&#34;7&#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:15:10)
+    at Invalid Character Input.testData.invalidCharacterInput.forEach.invalidCharacterInput (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:46:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Invalid Character Input (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:45:40)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+ERROR: Unable to locate element: &#34;option[value=&#34;Ma&#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:12:10)
+    at Excessive Length Input.testData.excessiveLengthInput.forEach.excessiveLengthInput (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:64:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Excessive Length Input (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:63:39)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+ERROR: Unable to locate element: &#34;option[value=&#34;In&#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:15:10)
+    at Excessive Length Input.testData.excessiveLengthInput.forEach.excessiveLengthInput (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:64:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Excessive Length Input (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:63:39)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+ERROR: Unable to locate element: &#34;option[value=&#34; &#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:12:10)
+    at Required Fields Incomplete.testData.requiredFieldsIncomplete.forEach.requiredFieldsIncomplete (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:73:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Required Fields Incomplete (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:72:43)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+ERROR: Unable to locate element: &#34;option[value=&#34; &#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/test-assets/fillOutForm.js:15:10)
+    at Required Fields Incomplete.testData.requiredFieldsIncomplete.forEach.requiredFieldsIncomplete (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:73:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Required Fields Incomplete (/Users/madelinethomas/Documents/DevMtn/wanted-queries-automation/tests/wantedQueries.js:72:43)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Modify Wanted: Invalid Character Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="ModifyWanted: Insufficient Length Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify Wanted: Excessive Length Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify Wanted: Required Fields Incomplete" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify Wanted: Valid Boundary Values" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Valid Warrant ID Field" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Invalid Warrant ID Field" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Navigate to Cancel Wanted Screen" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Existing Warrant" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Wanted: Valid Boundary Values" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Wanted: Insufficient Length Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Wanted: Excessive Length Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Wanted: Incomplete Fields Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel Wanted: Invalid Character Input" classname="wantedQueries">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
